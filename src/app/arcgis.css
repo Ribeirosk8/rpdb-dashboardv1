@@ -1,0 +1,26 @@
+/* Import ArcGIS CSS */
+@import url("https://js.arcgis.com/4.28/esri/themes/light/main.css");
+
+/* Custom ArcGIS styles */
+.esri-view {
+  height: 100%;
+  width: 100%;
+}
+
+.esri-popup__header-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.esri-popup__content {
+  margin: 0;
+  padding: 12px;
+}
+
+.esri-popup__footer {
+  padding: 12px;
+}
+
+.esri-widget {
+  font-family: inherit;
+}
